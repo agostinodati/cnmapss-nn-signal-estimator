@@ -76,12 +76,12 @@ def read_h5(filename):
 
         # save dataset
         training_set_decimate.to_pickle("dataset/training_set_decimate.pkl")
-        train_X.to_pickle("dataset/train_X.pkl")
-        train_Y.to_pickle("dataset/train_Y.pkl")
+        train_X.to_pickle("dataset/train_X_1.pkl")
+        train_Y.to_pickle("dataset/train_Y_1.pkl")
         print(training_set_decimate)
 
 
 if __name__ == '__main__':
-    read_h5("C:/Users/agost/OneDrive/Documenti/Università/Magistrale/Manutenzione preventiva per la robotica/Progetto/D - PHM2021 Data  Challenge - Dataset/data_set/N-CMAPSS_DS04.h5")
+    read_h5("C:/Users/agost/OneDrive/Documenti/Università/Magistrale/Manutenzione preventiva per la robotica/Progetto/D - PHM2021 Data  Challenge - Dataset/data_set/N-CMAPSS_DS08a-009.h5")
 
 
